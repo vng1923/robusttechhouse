@@ -1,0 +1,4 @@
+<div class="record" data-id="<%= post.id %>">
+	<h1><%= link_to post.title, controller: "static_pages", action: "show", id: post %></h1>
+	<p class="lead"><%= post.content %></p>
+</div>
